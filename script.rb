@@ -12,13 +12,12 @@ class Script
     candidates_list.each do |data|
       candidate = JSON.parse(data)
 
-      job_id = read_job_id_from_email(candidate['email'])
+      job_id = candidate['job_id']
       token = candidate['token']
       body = request_body(candidate)
 
       response = Request.call(job_id, token, body)
-
-      file.write({ id: candidate['id'], status: response['status'], body: response['body'] })
+      file.write({ id: candidate['id'], status: response[:status], body: JSON.parse(response[:body]) })
       file.write("\n")
     end
 
@@ -42,17 +41,16 @@ class Script
   def request_body(candidate)
     {
       "candidate_id": candidate['id'],
-      "step_number": 3,
+      "step_number": 7,
       "step_info": {
-        "gender": 'male',
-        "religion": 'Buddhist',
-        "father_name": 'Father1',
-        "mother_name": 'Mother1',
-        "nationality": 'Canadian',
-        "date_of_birth": '25-01-1991',
-        "marital_status": 'unmarried',
-        "current_address": 'Dhaka'
+        "languages": %w[
+          java
+          python
+          ruby
+        ]
+
       }
+
     }
   end
 end

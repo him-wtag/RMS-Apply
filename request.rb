@@ -1,5 +1,6 @@
 require 'faraday'
 require 'faraday/net_http'
+require 'byebug'
 
 Faraday.default_adapter = :net_http
 
@@ -42,7 +43,7 @@ class Request
       headers: {
         'Content-Type' => 'application/json',
         'Accept-Version' => 'v1',
-        'Auhtorization' => token
+        'Authorization' => token
       }
     )
   end
