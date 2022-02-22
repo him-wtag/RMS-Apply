@@ -19,11 +19,12 @@ class Script
       response = Request.call(job_id, token, body)
 
       file.write({ id: candidate['id'], status: response['status'], body: response['body'] })
+      file.write("\n")
     end
 
     file.close
 
-    puts "Check the log.txt file for logs!"
+    puts 'Check the log.txt file for logs!'
   end
 
   private
@@ -43,7 +44,7 @@ class Script
       "candidate_id": candidate['id'],
       "step_number": 3,
       "step_info": {
-        "gender": 'Male',
+        "gender": 'male',
         "religion": 'Buddhist',
         "father_name": 'Father1',
         "mother_name": 'Mother1',
