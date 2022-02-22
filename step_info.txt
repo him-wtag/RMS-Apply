@@ -1,0 +1,139 @@
+{
+  "candidate_id": 513,
+  "step_number": 1,
+  "step_info": {
+      "image_url": "http://localhost:3000/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0bd90f63c5960a9a829e7e1ba57c6a30ffa27e72/diagram.png"
+  }
+}
+
+========================================
+
+
+{
+  "candidate_id": 513,
+  "step_number": 2,
+  "step_info": {
+    "phone": "+8801715555555",
+    "last_name": "Hello1",
+    "first_name": "Hello1",
+    "english_proficiency": "basic",
+    "resume": {
+            "name": "Fresher Graduate.pdf",
+            "url": "http://localhost:3000/rails/active_storage/blobs/redirect/		eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--13aeb0265f52be15726ab4af9c48707eac5ffc02/Fresher%20Graduate.pdf"
+    }
+  }
+}
+
+========================================
+
+{
+  "candidate_id": 513,
+  "step_number": 3,
+  "step_info": {
+    "gender": "male",
+          "religion": "Buddhist",
+          "father_name": "Father1",
+          "mother_name": "Mother1",
+          "nationality": "Canadian",
+          "date_of_birth": "25-01-1991",
+          "marital_status": "unmarried",
+          "current_address": "Dhaka"
+  }
+}
+
+========================================
+
+
+{
+  "candidate_id": 513,
+  "step_number": 4,
+  "step_info": {
+    "cgpa": "3.87",
+    "subject": "CSE",
+    "education": "Masters",
+    "passing_year": "09-06-2021",
+    "institute_name": "DU"
+  }
+}
+
+========================================
+
+{
+  "candidate_id": 513,
+  "step_number": 5,
+  "step_info": {
+    "department": "IT",
+          "employment": "company",
+          "experience": "2",
+          "job_position": "position",
+          "joining_date": "12-01-2021",
+          "quitting_date": "13-01-2021",
+          "company_location": "city",
+          "last_withdrawn_salary": "150000"
+  }
+}
+
+========================================
+
+{
+  "candidate_id": 513,
+  "step_number": 6,
+  "step_info": {
+    "interests": [
+        "backend",
+         "frontend",
+          "devops"
+    ]
+  }
+}
+
+========================================
+
+{
+  "candidate_id": 513,
+  "step_number": 7,
+  "step_info": {
+    "languages": [
+        "java",
+         "python",
+          "ruby"
+    ]
+  }
+}
+
+========================================
+
+{
+  "candidate_id": 513,
+  "step_number": 8,
+  "step_info": {
+      "introduce_videos": 
+      [ 
+          { 
+            "id": 1,
+            "name": "video_1_screen recording 2022-02-09 at 1.47.35 pm.mov",
+            "url": "http://localhost:3000/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--25940760b675438c5eca9d202e058d4b1662f493/video_1_screen%20recording%202022-02-09%20at%201.47.35%20pm.mov"
+          },
+           { 
+               "id": 2,
+                "name": "video_2_screen recording 2022-02-09 at 1.47.35 pm.mov",
+                "url": "http://localhost:3000/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9cab5bbebab7c97d23f5a8989939754244850997/video_2_screen%20recording%202022-02-09%20at%201.47.35%20pm.mov"
+           },
+           {
+               "id": 3,
+                "name": "video_3_screen recording 2022-02-09 at 1.47.35 pm.mov",
+                "url": "http://localhost:3000/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c2abad00b5c8686a8d9dad9dd6436f511f4feb26/video_3_screen%20recording%202022-02-09%20at%201.47.35%20pm.mov"
+           }
+      ]
+  }
+}
+
+========================================
+
+{
+  "candidate_id": 513,
+  "step_number": 9,
+  "step_info": {
+    "expected_salary": "120000"
+  }
+}
