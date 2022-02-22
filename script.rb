@@ -20,6 +20,10 @@ class Script
 
       file.write({ id: candidate['id'], status: response['status'], body: response['body'] })
     end
+
+    file.close
+
+    puts "Check the log.txt file for logs!"
   end
 
   private
